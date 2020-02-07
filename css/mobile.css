@@ -1,0 +1,145 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .block2{
+        margin:5px;
+        width: 75vw;
+        height: 100%;
+    }
+    .col-sm-12{
+        display: block;
+        padding: 10px 5px;
+    }
+    .vl{
+        display: none;
+    }
+    .v3{
+        display: none;
+    }
+    .block3{
+        margin:5px;
+        display: block;
+        width: 98vw;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .customer_logo img{
+        height: 100px;
+        float: left; 
+     }
+     .p1{
+         width:100%;
+         display: block;
+     }
+     .img-popup img{
+         height: 80px;
+         margin-bottom: 20px;
+         float: left;
+     }
+     .photo_text{
+         margin-top:200px;
+     }
+     .vid-popup img{
+        height: 80px;
+        margin-bottom: 20px;
+        float: left;
+     }
+     footer a{
+        display: inline;
+        /* margin: 20px; */
+     }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }  
+    nav{
+        width: 100vw;
+    }
+    #myCarousel{
+        width: 75vw;
+    }
+    .block2{
+        margin:5px auto;
+        width: 75vw;
+        height: 100%;
+        /* box-shadow: 3px 3px 5px 5px rgb(165, 164, 164); */
+    }
+    .col-sm-12{
+        display: block;
+        padding: 10px 5px;
+    }
+    .vl{
+        display: none;
+    }
+    .v3{
+        display: none;
+    }
+    .plifestyle{
+        width: 100%;
+    }
+    .block2col{
+        width: 100vw;
+        margin: 30px 50px;
+    }
+    .block3{
+        display: block;
+        width: 100vw;
+    }
+    .lastblock{
+        margin-top: 50vh;
+        display: block;
+        width: 100vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }  
+
+    .vl{
+        display: none;
+    }
+    .v2{
+        display: none;
+    }
+    .v3{
+        display: none;
+    }
+    .block2{
+        width: 98vw;
+        height: 100%;
+        padding: 2vw;
+    }
+    .img-popup img{
+        height: 80px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .photo_text{
+        margin-top:200px;
+    }
+    .vid-popup img{
+       height: 80px;
+       margin-bottom: 20px;
+       float: left;
+    }
+    .block3{
+        width: 100vw;
+    }
+}
